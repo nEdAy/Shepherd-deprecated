@@ -1,0 +1,12 @@
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Release\Model.dll
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Release\Model.pdb
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Release\Newtonsoft.Json.dll
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Release\Newtonsoft.Json.xml
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\obj\Release\Model.dll
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\obj\Release\Model.pdb
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Release\Model.dll
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Release\Model.pdb
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Release\Newtonsoft.Json.dll
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Release\Newtonsoft.Json.xml
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\obj\Release\Model.dll
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\obj\Release\Model.pdb

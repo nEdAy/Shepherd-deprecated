@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5E2CB63-8BCD-4F88-9E63-8857AE0FEA27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MvcApplication1.BLL</RootNamespace>
+    <AssemblyName>MvcApplication1.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="auto\ActivityBLL.cs" />
+    <Compile Include="auto\AdvertisingBLL.cs" />
+    <Compile Include="auto\alibabaBLL.cs" />
+    <Compile Include="auto\authDataBLL.cs" />
+    <Compile Include="auto\CommentBLL.cs" />
+    <Compile Include="auto\CreditsHistoryBLL.cs" />
+    <Compile Include="auto\FavoriteBLL.cs" />
+    <Compile Include="auto\FavoriteItemBLL.cs" />
+    <Compile Include="auto\itemBLL.cs" />
+    <Compile Include="auto\ItemUserBLL.cs" />
+    <Compile Include="auto\MessageBLL.cs" />
+    <Compile Include="auto\NoticeBLL.cs" />
+    <Compile Include="auto\OverageHistoryBLL.cs" />
+    <Compile Include="auto\qqBLL.cs" />
+    <Compile Include="auto\RechargeHistoryBLL.cs" />
+    <Compile Include="auto\SignInBLL.cs" />
+    <Compile Include="auto\TbkItemBLL.cs" />
+    <Compile Include="auto\TqgItemBLL.cs" />
+    <Compile Include="auto\weiboBLL.cs" />
+    <Compile Include="auto\WithdrawalsDetailsBLL.cs" />
+    <Compile Include="auto\_UserBLL.cs" />
+    <Compile Include="CreditsHistoryBLL.cs" />
+    <Compile Include="InviteHistoryBLL.cs" />
+    <Compile Include="itemBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wechatBLL.cs" />
+    <Compile Include="WithdrawalsDetailsBLL.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{33a41192-5c75-4c4d-818a-7684fc98a1ec}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ee8d32ee-0934-4ed9-a157-36b81c5b414d}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{44077964-59a9-41a7-afce-822271270313}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

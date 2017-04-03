@@ -1,0 +1,13 @@
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Debug\Model.dll
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Debug\Model.pdb
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Debug\Newtonsoft.Json.dll
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\bin\Debug\Newtonsoft.Json.xml
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\obj\Debug\Model.dll
+Z:\Users\nEdAy\Desktop\BC\SheepAPI\Model\obj\Debug\Model.pdb
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Debug\Model.dll
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Debug\Model.pdb
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Debug\Newtonsoft.Json.dll
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\bin\Debug\Newtonsoft.Json.xml
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\obj\Debug\Model.dll
+Z:\Users\nEdAy\Desktop\神马快爆\SheepAPI\Model\obj\Debug\Model.pdb

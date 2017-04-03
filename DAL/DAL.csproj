@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33A41192-5C75-4C4D-818A-7684FC98A1EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MvcApplication1.DAO</RootNamespace>
+    <AssemblyName>MvcApplication1.DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="auto\ActivityDAO.cs" />
+    <Compile Include="auto\AdvertisingDAO.cs" />
+    <Compile Include="auto\alibabaDAO.cs" />
+    <Compile Include="auto\authDataDAO.cs" />
+    <Compile Include="auto\CommentDAO.cs" />
+    <Compile Include="auto\CreditsHistoryDAO.cs" />
+    <Compile Include="auto\FavoriteDAO.cs" />
+    <Compile Include="auto\FavoriteItemDAO.cs" />
+    <Compile Include="auto\itemDAO.cs" />
+    <Compile Include="auto\ItemUserDAO.cs" />
+    <Compile Include="auto\MessageDAO.cs" />
+    <Compile Include="auto\NoticeDAO.cs" />
+    <Compile Include="auto\OverageHistoryDAO.cs" />
+    <Compile Include="auto\qqDAO.cs" />
+    <Compile Include="auto\RechargeHistoryDAO.cs" />
+    <Compile Include="auto\SignInDAO.cs" />
+    <Compile Include="auto\TbkItemDAO.cs" />
+    <Compile Include="auto\TqgItemDAO.cs" />
+    <Compile Include="auto\weiboDAO.cs" />
+    <Compile Include="auto\WithdrawalsDetailsDAO.cs" />
+    <Compile Include="InviteHistoryDAO.cs" />
+    <Compile Include="wechatDAO.cs" />
+    <Compile Include="_UserDAO.cs" />
+    <Compile Include="CommentDAO.cs" />
+    <Compile Include="CreditsHistoryDAO.cs" />
+    <Compile Include="itemDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WithdrawalsDetailsDAO.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ee8d32ee-0934-4ed9-a157-36b81c5b414d}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{44077964-59a9-41a7-afce-822271270313}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
