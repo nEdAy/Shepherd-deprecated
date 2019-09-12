@@ -1,5 +1,4 @@
-# Sheep-API
-口袋快爆-服务端RESTful API（C#）
+# Shepherd 2.0 @deprecated
+口袋快爆2.0 服务端C#
 
-Android客户端 https://github.com/nEdAy/Sheep
-C#服务端RESTful API https://github.com/nEdAy/Sheep-API
+Android客户端 https://github.com/nEdAy/Sheep-deprecated
